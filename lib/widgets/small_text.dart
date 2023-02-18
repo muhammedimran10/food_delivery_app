@@ -3,28 +3,28 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
 
-class BigText extends StatelessWidget {
+class SmallText extends StatelessWidget {
   final Color? color;
   final String text;
   double size;
-  TextOverflow overFlow;
+  double height;
 
-  BigText({Key? key, this.color = Colors.amber, 
+  SmallText({Key? key, this.color = Colors.black45, 
     required this.text,
-    this.size=20,
-    this.overFlow=TextOverflow.ellipsis,
+    this.size=12,
+    this.height=1.2,
     }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Text(
         text,
-        overflow: overFlow,
         style: TextStyle(
           fontFamily: 'Roboto',
           color: color,
           fontSize: size,
           fontWeight: FontWeight.w400,
+          height: height,
 
         ),
     );

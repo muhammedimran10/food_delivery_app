@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_application_food/widgets/big_text.dart';
+import 'package:flutter_application_food/widgets/small_text.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({Key? key}) : super(key: key);
@@ -28,8 +30,13 @@ class _MainFoodPageState extends State<MainFoodPage> {
 
                   Column(
                     children: [
-                      Text("country"),
-                      Text("kerala"),
+                      BigText(text:"bangladesh" ,color: Colors.amber),
+                      Row(
+                        children: [
+                          SmallText(text:"kerala" ,color:Colors.black54),
+                          const Icon(Icons.arrow_drop_down_rounded),
+                        ],
+                      ),
                     ],
                   ),
 
