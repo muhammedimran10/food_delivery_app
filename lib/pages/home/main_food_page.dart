@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_food/home/food_body.dart';
-import 'package:flutter_application_food/home/utils/dimension.dart';
+import 'package:flutter_application_food/pages/home/food_body.dart';
+import 'package:flutter_application_food/pages/home/utils/dimension.dart';
 import 'package:flutter_application_food/widgets/big_text.dart';
 import 'package:flutter_application_food/widgets/small_text.dart';
 

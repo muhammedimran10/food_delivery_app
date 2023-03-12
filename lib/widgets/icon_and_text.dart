@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
-import 'package:flutter_application_food/home/utils/dimension.dart';
 import 'package:flutter_application_food/widgets/small_text.dart';
+import '../pages/home/utils/dimension.dart';
 
 class IconAndTextWidget extends StatelessWidget {
   final IconData icon;
